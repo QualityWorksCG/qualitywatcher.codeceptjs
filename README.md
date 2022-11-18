@@ -81,6 +81,8 @@ npm install @qualitywatcher/codeceptjs-reporter -save-dev
         });
     ```
 
+    ![finding QualityWatcher suite id, case id, and project id](https://www.docs.qualitywatcher.com/assets/images/api-key5-533c0969a4593461e7ae0f9e672996b0.png)
+
     b. You can also send results to QualityWatcher by running as tests as normal without including any test suite and case ID
 
 > Once `includeCaseWithoutId` is configured to `true`, test cases that doesn't have a mapped SUITE and CASE ID, they will automatically be created in QualityWatcher
